@@ -1,0 +1,9 @@
+2017-01-11 15:22:09: -- Analysis Started by Periodic Timer
+2017-01-11 15:22:22: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 161
+2017-01-11 15:22:22: Left to Right: Copy File: 1 
+2017-01-11 15:22:22: -- Analysis Complete. Time 00:00:15, Speed: 2 files/s
+2017-01-11 15:22:22: 
+2017-01-11 15:22:26: == Sync Started by Periodic Timer
+2017-01-11 15:22:31: Copy Over 'C:/Users/Jovanie/Work Space/Business-Blue/style.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/style.css'
+2017-01-11 15:22:33: == Sync Complete. Time: 00:00:10, Speed: 394 bytes/s, OK: 1, Errors: 0
+2017-01-11 15:22:33: 

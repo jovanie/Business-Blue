@@ -1,0 +1,8 @@
+2017-01-11 17:38:15: -- Analysis Started by Periodic Timer
+2017-01-11 17:38:20: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 161
+2017-01-11 17:38:20: Left to Right: Copy File: 1 
+2017-01-11 17:38:20: == Sync Started by Periodic Timer
+2017-01-11 17:38:25: C:/Users/Jovanie/Work Space/Business-Blue/css/wordpress-parallax-skeleton.css: Source file has changed between Analyze and Sync from '[file] size=4,001 accu-time=2017-01-11 17:38:11 attr=Archive' to 'size=4,006 time=2017-01-11 17:38:18', noted in source file state
+2017-01-11 17:38:25: Copy Over 'C:/Users/Jovanie/Work Space/Business-Blue/css/wordpress-parallax-skeleton.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/css/wordpress-parallax-skeleton.css'
+2017-01-11 17:38:29: == Sync Complete. Time: 00:00:09, Speed: 1.03 KB/s, OK: 1, Errors: 0
+2017-01-11 17:38:30: 

@@ -1,0 +1,7 @@
+2017-01-11 17:57:24: -- Analysis Started by Analyze And Sync All
+2017-01-11 17:57:27: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 161
+2017-01-11 17:57:27: Left to Right: Copy File: 1 
+2017-01-11 17:57:27: == Sync Started by Analyze And Sync All
+2017-01-11 17:57:29: Copy Over 'C:/Users/Jovanie/Work Space/Business-Blue/css/wordpress-parallax-skeleton.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/css/wordpress-parallax-skeleton.css'
+2017-01-11 17:57:31: == Sync Complete. Time: 00:00:04, Speed: 2.49 KB/s, OK: 1, Errors: 0
+2017-01-11 17:57:31: 

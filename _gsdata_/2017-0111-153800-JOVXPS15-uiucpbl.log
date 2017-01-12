@@ -1,0 +1,9 @@
+2017-01-11 15:38:01: -- Analysis Started by Periodic Timer
+2017-01-11 15:38:03: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 161
+2017-01-11 15:38:03: Left to Right: Copy File: 1 
+2017-01-11 15:38:03: == Sync Started by Periodic Timer
+2017-01-11 15:38:03: C:/Users/Jovanie/Work Space/Business-Blue/header.php: Source file has changed during Sync from '[file] size=2,452 accu-time=2017-01-11 15:37:39 attr=Archive' to 'size=2,452 time=2017-01-11 15:38:03', will be retried
+2017-01-11 15:38:03: Destination side file adjusted to '[file] size=2,452 accu-time=2017-01-11 15:38:00 file-time=2017-01-11 15:38:04 attr=Archive', to force retry
+2017-01-11 15:38:03: Copy Over 'C:/Users/Jovanie/Work Space/Business-Blue/header.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/header.php'
+2017-01-11 15:38:04: == Sync Complete. Time: 00:00:01, Speed: 0 bytes/s, OK: 1, Errors: 0
+2017-01-11 15:38:04: 

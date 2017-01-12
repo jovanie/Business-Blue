@@ -1,0 +1,9 @@
+2017-01-11 18:12:03: -- Analysis Started by Analyze And Sync All
+2017-01-11 18:12:06: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 161
+2017-01-11 18:12:06: Left to Right: Copy File: 1 
+2017-01-11 18:12:06: == Sync Started by Analyze And Sync All
+2017-01-11 18:12:09: C:/Users/Jovanie/Work Space/Business-Blue/css/wordpress-parallax-skeleton.css: Source file has changed during Sync from '[file] size=4,300 accu-time=2017-01-11 18:11:58 attr=Archive' to 'size=4,195 time=2017-01-11 18:12:07', will be retried
+2017-01-11 18:12:09: Destination side file adjusted to '[file] size=4,300 accu-time=2017-01-11 18:12:04 file-time=2017-01-11 18:12:08 attr=Archive', to force retry
+2017-01-11 18:12:09: Copy Over 'C:/Users/Jovanie/Work Space/Business-Blue/css/wordpress-parallax-skeleton.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/css/wordpress-parallax-skeleton.css'
+2017-01-11 18:12:11: == Sync Complete. Time: 00:00:05, Speed: 1.91 KB/s, OK: 1, Errors: 0
+2017-01-11 18:12:12: 

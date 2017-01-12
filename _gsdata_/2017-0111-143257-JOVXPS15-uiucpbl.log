@@ -1,0 +1,7 @@
+2017-01-11 14:32:57: -- Analysis Started by Periodic Timer
+2017-01-11 14:32:59: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 157
+2017-01-11 14:32:59: Left to Right: Copy File: 1 
+2017-01-11 14:32:59: == Sync Started by Periodic Timer
+2017-01-11 14:33:00: Copy Over 'C:/Users/Jovanie/Work Space/Business-Blue/css/wordpress-parallax-skeleton.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/css/wordpress-parallax-skeleton.css'
+2017-01-11 14:33:01: == Sync Complete. Time: 00:00:02, Speed: 3.16 KB/s, OK: 1, Errors: 0
+2017-01-11 14:33:01: 

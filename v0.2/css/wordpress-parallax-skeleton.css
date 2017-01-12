@@ -123,7 +123,7 @@ header {
 .content-wrap {
     background-color: white;
     position: relative;
-    z-index:250;
+    z-index: 250;
 }
 
 .blah {
@@ -420,7 +420,8 @@ footer ul li:first-child {
     }
 }
 
-@media screen and (max-width: 500px) {header {
+@media screen and (max-width: 500px) {
+    header {
         height: 3.5em;
     }
     .mobile-nav-bar {

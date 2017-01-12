@@ -1,0 +1,37 @@
+2017-01-11 15:17:46: -- Analysis Started by Periodic Timer
+2017-01-11 15:17:47: Changes: 25, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0, All: 159
+2017-01-11 15:17:47: Left to Right: Copy File: 24 Delete File: 1 
+2017-01-11 15:17:47: == Sync Started by Periodic Timer
+2017-01-11 15:17:47: Delete File 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/page--home.php'
+2017-01-11 15:17:47: Create Folder 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2'
+2017-01-11 15:17:47: Create Folder 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/css'
+2017-01-11 15:17:47: Create Folder 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/js'
+2017-01-11 15:17:47: Create Folder 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/temp'
+2017-01-11 15:17:47: Create Folder 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/temp/css'
+2017-01-11 15:17:47: Create Folder 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/temp/fonts'
+2017-01-11 15:17:47: Create Folder 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/temp/js'
+2017-01-11 15:17:48: Copy Over 'C:/Users/Jovanie/Work Space/Business-Blue/front-page.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/front-page.php'
+2017-01-11 15:17:48: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/page.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/page.php'
+- ERROR: Error copying file: Cannot open local file 'C:/Users/Jovanie/Work Space/Business-Blue/page.php' for read: The system cannot find the file specified.  (error 2)
+2017-01-11 15:17:48: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/content-single.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/content-single.php'
+2017-01-11 15:17:48: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/content.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/content.php'
+2017-01-11 15:17:49: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/css/fonts.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/css/fonts.css'
+2017-01-11 15:17:49: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/css/reset.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/css/reset.css'
+2017-01-11 15:17:50: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/css/wordpress-parallax-skeleton.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/css/wordpress-parallax-skeleton.css'
+2017-01-11 15:17:50: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/footer.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/footer.php'
+2017-01-11 15:17:50: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/functions.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/functions.php'
+2017-01-11 15:17:51: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/header.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/header.php'
+2017-01-11 15:17:51: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/index.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/index.php'
+2017-01-11 15:17:52: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/js/jquery.slicknav.min.js' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/js/jquery.slicknav.min.js'
+2017-01-11 15:17:52: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/js/parallax.min.js' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/js/parallax.min.js'
+2017-01-11 15:17:52: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/page.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/page.php'
+2017-01-11 15:17:53: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/sidebar.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/sidebar.php'
+2017-01-11 15:17:53: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/single.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/single.php'
+2017-01-11 15:17:54: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/v0.2/style.css' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/v0.2/style.css'
+2017-01-11 15:17:54: == Sync Complete. Time: 00:00:07, Speed: 6.06 KB/s, OK: 24, Errors: 1
+2017-01-11 15:17:54: 
+2017-01-11 15:18:37: == Sync Started by Periodic Timer
+2017-01-11 15:18:41: Copy New 'C:/Users/Jovanie/Work Space/Business-Blue/page.php' -> 'ftp://uiucpbl.org/public_html/wp-content/themes/Business-Blue/page.php'
+- ERROR: Error copying file: Cannot open local file 'C:/Users/Jovanie/Work Space/Business-Blue/page.php' for read: The system cannot find the file specified.  (error 2)
+2017-01-11 15:18:41: == Sync Complete. Time: 00:00:15, Speed: 195 bytes/s, OK: 0, Errors: 1
+2017-01-11 15:18:41: 
