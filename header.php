@@ -32,7 +32,7 @@
 					<div class="title-head">
 						<h1><a href="<?php bloginfo( 'wpurl' );?>"><?php echo get_bloginfo( 'name' ); ?></a></h1>
 					</div>
-					<?wp_nav_menu( array( 'theme_location' => 'call-to-action', 'container_class' => 'call-to-action' ) ); ?>
+					<h2><?wp_nav_menu( array( 'theme_location' => 'call-to-action', 'container_class' => 'call-to-action' ) ); ?></h2>
 				</div>
 
 			</div>
