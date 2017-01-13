@@ -467,15 +467,17 @@ body {
 
 /* Page Wrap Content Styles Only */
 
-@media screen and (min-width: 1025px) {
+@media screen {
     .page-wrap {
         position: relative;
+        display: block;
         z-index: 555;
         margin: 0 auto;
         width: 100%;
         padding-top: 10em;
         height: auto;
         overflow: hidden;
+        background-color: transparent;
     }
 }
 
@@ -492,14 +494,92 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    .page-wrap {}
+    .page-wrap {
+        padding-top: 4em;
+    }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
     .page-wrap {
         padding-top: 3.5em;
     }
 }
+
+@media screen and (max-width: 320px) {}
+
+
+/* Responsive Grid */
+/* responsive-grid-height.js is needed to make all columns in a row same height */
+
+@media screen {
+    .grid {
+        width: 100%;
+        max-width: 1200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        overflow: hidden;
+        width: 100%;
+    }
+    .columns {
+        width: 100%;
+        display: inline-block;
+        float: left;
+        background-color: white;
+    }
+    .twelve-twelve {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .six-twelve {
+        width: 48%;
+        margin-left: 2%;
+    }
+    .four-twelve {
+        width: 30%;
+        margin-left: 3.3333%;
+    }
+    .three-twelve {
+        width: 21%;
+        margin-left: 4%;
+    }
+    .columns:first-child {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 875px) {}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 500px) {
+    .grid {
+        max-width: 500px;
+        background-color: white;
+    }
+    .twelve-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .six-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .four-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .three-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+}
+
+@media screen and (max-width: 414px) {}
 
 @media screen and (max-width: 320px) {}
 
@@ -515,13 +595,15 @@ body {
 
 .sub-wrap {}
 
-@media screen and (min-width: 1025px) {}
+@media screen {}
 
 @media screen and (max-width: 1024px) {}
 
 @media screen and (max-width: 875px) {}
 
 @media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 500px) {}
 
 @media screen and (max-width: 414px) {}
 
