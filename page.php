@@ -1,4 +1,4 @@
-<!-- This is the Static Front Page Template -->
+<!-- This is the Page Template -->
 
 <?php get_header(); ?>
 
@@ -8,8 +8,6 @@
 	            get_template_part( 'content', get_post_format() );
 	            endwhile; endif; 
         ?>
-  
-  <div class="footer-push"></div>
-  </div><!-- END .page-wrap -->
+  </div>
 
 <?php get_footer(); ?>
