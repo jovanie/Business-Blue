@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Business-Blue-Parallax-Top
+ * Template Name: Business-Blue-Home
  *
  * @package WordPress
  * @subpackage Business-Blue

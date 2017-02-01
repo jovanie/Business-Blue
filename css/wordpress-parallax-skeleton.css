@@ -86,8 +86,9 @@ body {
     }
     p {
         font-size: 1.5em;
-        line-height: 1.5em;
+        line-height: 1.15em;
     }
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -167,18 +168,20 @@ body {
     h4 {
         font-size: 1.3em;
     }
-    p {}
+    p {
+      font-size:1em;
+  }
 }
 
 @media screen and (max-width: 414px) {
     h1 {
-        font-size: 1.35em;
+        font-size: 1.5em;
     }
     h2 {
-        font-size: 1.30em;
+        font-size: 1.4m;
     }
     h3 {
-        font-size: 1.25em;
+        font-size: 1.2em;
     }
     h4 {
         font-size: 1.2em;
@@ -239,7 +242,7 @@ body {
         line-height: 5em;
         color: white;
         text-align: center;
-        padding: 1em 0 1em 1em;
+        padding: 1em 1em 1em 1em;
         text-decoration: none;
     }
     .header-menu ul li a:hover {
@@ -314,8 +317,6 @@ body {
     }
     .header-menu ul li a {
         line-height: 4em;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
     }
     .title-call {
         margin-top: 5em;
@@ -529,6 +530,10 @@ body {
         width: 100%;
         margin-left: 0%;
     }
+    .nine-twelve {
+        width: 66%;
+        margin-left: 4%;
+    }
     .eight-twelve {
         width: 60%;
         margin-left: 3.3333%;
@@ -552,7 +557,35 @@ body {
 
 @media screen and (max-width: 1024px) {}
 
-@media screen and (max-width: 875px) {}
+@media screen and (max-width: 875px) {
+	.grid {
+        max-width: 875px;
+    }
+    .twelve-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+  .nine-twelve {
+    width:100%;
+    margin: 0 0 0 0;
+  }
+    .eight-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .six-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .four-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+    .three-twelve {
+        width: 100%;
+        margin: 0 0 0 0;
+    }
+}
 
 @media screen and (max-width: 600px) {}
 
@@ -564,6 +597,10 @@ body {
         width: 100%;
         margin: 0 0 0 0;
     }
+  .nine-twelve {
+    width:100%;
+    margin: 0 0 0 0;
+  }
     .eight-twelve {
         width: 100%;
         margin: 0 0 0 0;
@@ -597,6 +634,14 @@ body {
     width: 100%;
     height: auto;
 }
+.abs-wrap {
+	position: absolute;
+    display: block;
+    z-index: 555;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
 
 .white {
     background-color: white;
@@ -606,7 +651,7 @@ body {
     background-color: var(--darkest-blue);
 }
 
-.centered {
+.centered, .center {
     width: 100%;
     text-align: center;
     margin-left: auto;
@@ -619,7 +664,20 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.super-centered {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.top-down-centered{
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.fat-elbowroom{
+  padding-left:1em;
+  padding-right:1em;
+}
 .elbowroom {
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -644,6 +702,9 @@ body {
 .text {
     padding: 0.5em 0.75em 0.5em 0.75em;
 }
+.tab {
+	padding-left:2em;
+}
 
 .officers-a {
     text-decoration: none;
@@ -663,6 +724,12 @@ body {
 
 .black-link:hover {
     text-decoration: underline;
+}
+.bold {
+	font-weight:bold;
+}
+strong {
+	font-weight:bold;
 }
 
 img {
@@ -688,6 +755,23 @@ img {
     -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
     box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
 }
+@media screen {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 875px) {}
+
+@media screen and (max-width: 600px) {
+	.box-shadow{
+		width:50%;
+	}
+}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 320px) {}
 
 .button-wrap {
     display: flex;
@@ -717,10 +801,11 @@ img {
 }
 
 .img-crop {
-    max-width: 75%;
+    max-width: 100%;
     height: auto;
     position: relative;
     overflow: hidden;
+  	padding: 0.5em;
 }
 .round-img {
     display: block;
@@ -732,6 +817,54 @@ img {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
+}
+.img-horiz{
+	width:100%;
+}
+.img-vert{
+	width:100%;
+}
+@media screen {}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 875px) {
+	.round-img{
+		width:50%;
+	}
+	.img-horiz{
+		width:80%;
+	}
+	.img-vert{
+		width:50%;
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+	.round-img{
+		width:50%;
+	}
+}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 320px) {}
+.float-left {
+  float:left;
+}
+.float-right {
+  float:right;
+}
+.thin {
+    font-size:1.2em;
+    line-height:1.2em;
+  font-family:Aleo-Light;
+  }
+ol li{
+  list-style-type: initial;
 }
 /* Parallax */
 
@@ -840,7 +973,7 @@ img {
 
 @media screen and (max-width: 414px) {
     .parallax-window-1 {
-        height: 8em;
+        height: 16em;
         /* Accounts for header */
         padding-top: 4em;
         margin-bottom: -4em;
@@ -849,14 +982,68 @@ img {
         height: 4em;
     }
     .parallax-overlay {
-        height: 2em;
-        bottom: -2em;
+        height: 4em;
+        bottom: -8em;
     }
 }
 
 @media screen and (max-width: 320px) {}
 
+/* Membership Parallax page */
 
+@media screen {
+	.parallax-membership {
+		margin:0 auto;
+		padding: 0;
+    height: 30em;
+		width:100%;
+    overflow: hidden;
+    }
+    .membership-overlay {
+			margin:0 auto;
+			padding:0;
+			left:0;
+			width:100%;
+			height:100%;
+			background-color:transparent;
+      position: relative;
+			left:50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .membership-overlay h1.parallax-centered {
+				font-family:Aleo-Bold;
+        color: white;
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+				z-index:556;
+    }
+    .membership-overlay h1 a {
+        text-decoration: none;
+        color: black;
+    }
+    .membership-overlay h1 a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 875px) {}
+
+@media screen and (max-width: 600px) {}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 414px) {}
+
+@media screen and (max-width: 320px) {}
 /* Footer only Styles */
 
 footer {
